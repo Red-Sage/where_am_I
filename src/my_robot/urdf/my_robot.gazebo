@@ -96,5 +96,16 @@
     </sensor>
   </gazebo>
 
+  <gazebo reference="right_wheel">
+      <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="left_wheel">
+      <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="chassis">
+      <material>Gazebo/Blue</material>
+  </gazebo>
 
 </robot>
