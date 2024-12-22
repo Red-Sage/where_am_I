@@ -37,6 +37,11 @@
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
+      <material>
+        <ambient>0.2 0.2 1 1</ambient>
+        <diffuse>0.1 0.1 1 1</diffuse>
+        <emissive>0 0 0 1</emissive>
+      </material>
     </visual>
 
     <collision name='back_caster_collision'>
@@ -66,6 +71,7 @@
         <sphere radius="0.05"/>
       </geometry>
     </visual>
+
 
   </link>
 
