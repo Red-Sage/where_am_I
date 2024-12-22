@@ -21,8 +21,7 @@ class SubscribeAndPublish
 
         bool handle_drive_request(ball_chaser::DriveToTarget::Request& req, ball_chaser::DriveToTarget::Response& res)
         {
-            ROS_INFO_STREAM("move_callback called");
-
+            
             geometry_msgs::Twist motor_command;
 
             motor_command.linear.x = req.linear_x;
