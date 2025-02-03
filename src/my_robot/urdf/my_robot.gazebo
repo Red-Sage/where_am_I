@@ -19,7 +19,7 @@
       <publishWheelJointState>false</publishWheelJointState>
       <rosDebugLevel>na</rosDebugLevel>
       <wheelAcceleration>0</wheelAcceleration>
-      <wheelTorque>5</wheelTorque>
+      <wheelTorque>10</wheelTorque>
       <odometrySource>world</odometrySource>
       <publishTf>1</publishTf>
       <publishOdomTF>true</publishOdomTF>
@@ -107,5 +107,18 @@
   <gazebo reference="chassis">
       <material>Gazebo/Blue</material>
   </gazebo>
+
+  <gazebo>
+    <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+      <alwaysOn>true</alwaysOn>
+      <updateRate>50.0</updateRate>
+      <bodyName>robot_footprint</bodyName>
+      <topicName>ground_truth/state</topicName>
+      <gaussianNoise>0.01</gaussianNoise>
+      <frameName>map</frameName>
+      <xyzOffset>0 0 0</xyzOffset>
+      <rpyOffset>0 0 0</rpyOffset>
+    </plugin>
+  </gazebo>  
 
 </robot>
