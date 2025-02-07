@@ -33,6 +33,12 @@ together. When more weight was given to z_hit the solution converged more quickl
 ![z hit 0.5 and z rand 0.5](z_hit_pt5_z_rand_pt5.png)
 **z_hit = 0.5 and z_rand = 0.5**
 
+# Good Initial Pose 
+When given a good initial pose, we can use a smaller initial covariance and achieve a good final result.
+
+![Good Initial Pose](Init_1m_initCov.png)
+![Good Initial Pose Result](Good_initial_pose_final_state.png)
+
 # Final results
 <video width="1242" height="846" controls>
   <source src="final_settings.mp4" type="video/mp4">

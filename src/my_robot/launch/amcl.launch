@@ -9,12 +9,12 @@
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
-    <param name="initial_pose_x" value="0.0"/>
-    <param name="initial_pose_y" value="0.0"/>
+    <param name="initial_pose_x" value="5"/>
+    <param name="initial_pose_y" value="3"/>
     <param name="max_particles" value="5000"/>
     
-    <param name="initial_cov_xx" value="20.0"/>
-    <param name="initial_cov_yy" value="20.0"/>
+    <param name="initial_cov_xx" value="1.0"/>
+    <param name="initial_cov_yy" value="1.0"/>
     <param name="initial_cov_aa" value="6.28"/>
     <param name="update_min_d" value="0.1"/>
     <param name="update_min_a" value="0.2"/>
