@@ -34,6 +34,6 @@ together. When more weight was given to z_hit the solution converged more quickl
 **z_hit = 0.5 and z_rand = 0.5**
 
 # Final results
-<video width="320" height="240" controls>
+<video width="1242" height="846" controls>
   <source src="final_settings.mp4" type="video/mp4">
 </video>
